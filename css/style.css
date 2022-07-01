@@ -199,8 +199,6 @@ body {
 
 .module-logo {
   display: block;
-  width: 137px;
-  height: 30px;
   margin: 0 0 25px 0;
   padding: 0;
 }
@@ -226,6 +224,22 @@ body {
   color: #3F2AFF;
 }
 
+.card-list {
+  padding: 0;
+  margin: 0 0 50px;
+  list-style: none;
+
+}
+
+.card-list-item {
+  display: inline-block;
+}
+
+.card-list-item:nth-last-of-type(2n) {
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
 .module-card {
   display: inline-block;
   position: relative;
@@ -235,16 +249,11 @@ body {
   padding: 205px 25px 25px 25px;
   vertical-align: top;
   font-size: 0;
+  box-shadow: -1px -1px 10px #07021725;
 }
 
-.module-card:nth-last-of-type(2n) {
-  margin-right: 25px;
-  margin-bottom: 25px;
-}
 
-.module-card:last-of-type {
-  margin-bottom: 50px;
-}
+
 
 .card-1 {
   background: url("/img/background1.jpg");
