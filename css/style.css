@@ -186,7 +186,6 @@ body {
   padding: 19px 0 19px 0;
   font-weight: 400;
   font-size: 14px;
-
 }
 
 .image {
@@ -251,9 +250,6 @@ body {
   font-size: 0;
   box-shadow: -1px -1px 10px #07021725;
 }
-
-
-
 
 .card-1 {
   background: url("/img/background1.jpg");
