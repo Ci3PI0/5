@@ -227,7 +227,6 @@ body {
   padding: 0;
   margin: 0 0 50px;
   list-style: none;
-
 }
 
 .card-list-item {
@@ -259,19 +258,16 @@ body {
 .card-2 {
   background: url("/img/background2.jpg");
   background-repeat: no-repeat;
-
 }
 
 .card-3 {
   background: url("/img/background3.jpg");
   background-repeat: no-repeat;
-
 }
 
 .card-4 {
   background: url("/img/background4.jpg");
   background-repeat: no-repeat;
-
 }
 
 
